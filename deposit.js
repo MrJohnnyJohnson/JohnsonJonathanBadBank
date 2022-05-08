@@ -5,7 +5,7 @@ function Deposit(){
    const [balance, setBalance]   = React.useState(100);
    const [disabled, setDisabled] = React.useState(true);
   const ctx = React.useContext(UserContext); 
-  //var ctx2 = Array(ctx); 
+  
 
   const validate = amount => {
     if(!amount) {
@@ -13,7 +13,6 @@ function Deposit(){
       return false;
     }
     if(!Number(amount)) {
-      //(amount === NaN) doesnt work
       setStatus('Error: Please enter a valid number');
       return false;
     }
@@ -32,18 +31,6 @@ function Deposit(){
     ctx.users.push(Number(balance) + Number(amount));
   }
 
-  //function handleCreate(){
-    //console.log(deposit);
-     //if (!validate(deposit,     'deposit'))     return;
-    //ctx2.push({deposit});
-    //setShow(false);
-    //console.log(ctx2);
-    //console.log(this.ctx2[0]);
-    //let newbalance = parseInt(deposit) + Number(ctx2.balance);
-    //console.log(newbalance); 
-    //return deposit;
-     // }    
-//console.log(handleCreate());
 
   function clearForm(){
     setDeposit('');
@@ -61,7 +48,7 @@ function Deposit(){
 
   return (
     <Card
-      bgcolor="success"
+      bgcolor= "success"
       header="Deposit"
       status={status}
       body={show ? (  

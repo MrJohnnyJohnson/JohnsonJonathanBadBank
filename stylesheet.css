@@ -1,0 +1,26 @@
+.card{
+    
+    border-radius: 10%;
+}
+.image{
+    border-radius: 10%;
+}
+body{
+    background-image:url("currency.jpg");
+    background-size: no-repeat;
+    
+}
+
+
+  img {
+    border-radius: 10% 10% 10% 10%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 4px 24px;
+  }
+
+

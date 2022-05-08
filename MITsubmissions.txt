@@ -1,0 +1,5 @@
+Video submission:
+
+initial youtube video of the app functioning.  I will add commentary and subtitles in the days to come. 
+
+I had a very difficult time with the context and formatting with this project.  I also have not been able to get it hosted on AWS. One of the biggest challenges that I faced was learning and re-learning and practicing the context and context creation. I still do not fully understand this. Routing is also very challenging.  This project was a lot to take in.  For the form, I did code one into the "create account" file. This was done for validation purposes as well as restrictions on what can and cannot be submitted.  I did this, because all of my research lead me to other programmers and examples where a form component was leveraged.
